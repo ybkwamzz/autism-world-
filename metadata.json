@@ -1,0 +1,8 @@
+{
+  "name": "Remix Autism Unmasked Kenya",
+  "description": "An interactive resources, stories, and support hub for the autistic community in Kenya, featuring a therapy toolkit and the AI-powered Lumo Assistant.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

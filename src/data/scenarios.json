@@ -1,0 +1,94 @@
+[
+  {
+    "id": "sch-join-group-01",
+    "type": "scenario",
+    "setting": "school",
+    "communication_goal": "requesting to join an activity",
+    "difficulty": 1,
+    "video_id": "toUjy_Gzh3o",
+    "start_seconds": 0,
+    "end_seconds": 73,
+    "interaction_points": [
+      {
+        "at_seconds": 27,
+        "prompt": "What can you say when you want to join the group activity?",
+        "options": [
+          { "id": "ask-join", "text": "Can I join, please?" },
+          { "id": "grab-toy", "text": "Take the materials without asking" },
+          { "id": "stand-far", "text": "Push the table away" }
+        ],
+        "correct_option_id": "ask-join"
+      }
+    ],
+    "related_scenario_ids": ["hom-end-playtime-01", "sch-ask-help-01"]
+  },
+  {
+    "id": "sch-ask-help-01",
+    "type": "scenario",
+    "setting": "school",
+    "communication_goal": "asking a teacher or peer for help",
+    "difficulty": 1,
+    "video_id": "5P-89FdwlGc",
+    "start_seconds": 0,
+    "end_seconds": 79,
+    "interaction_points": [
+      {
+        "at_seconds": 18,
+        "prompt": "What is a clear way to ask for help at school?",
+        "options": [
+          { "id": "ask-help", "text": "Please help me with this." },
+          { "id": "walk-away", "text": "Walk away without telling anyone" },
+          { "id": "throw-book", "text": "Drop the book on the floor" }
+        ],
+        "correct_option_id": "ask-help"
+      }
+    ],
+    "related_scenario_ids": ["hom-ask-snack-01", "sch-join-group-01"]
+  },
+  {
+    "id": "hom-ask-snack-01",
+    "type": "scenario",
+    "setting": "home",
+    "communication_goal": "asking a parent for something wanted",
+    "difficulty": 1,
+    "video_id": "a9W4fEVTFHY",
+    "start_seconds": 0,
+    "end_seconds": 62,
+    "interaction_points": [
+      {
+        "at_seconds": 22,
+        "prompt": "What can you say when you want a snack at home?",
+        "options": [
+          { "id": "ask-snack", "text": "May I have a snack, please?" },
+          { "id": "shout", "text": "Shout until someone guesses" },
+          { "id": "climb-shelf", "text": "Climb the cupboard alone" }
+        ],
+        "correct_option_id": "ask-snack"
+      }
+    ],
+    "related_scenario_ids": ["sch-ask-help-01", "hom-end-playtime-01"]
+  },
+  {
+    "id": "hom-end-playtime-01",
+    "type": "scenario",
+    "setting": "home",
+    "communication_goal": "ending an activity and transitioning smoothly",
+    "difficulty": 2,
+    "video_id": "Dsc6pY685oE",
+    "start_seconds": 5,
+    "end_seconds": 55,
+    "interaction_points": [
+      {
+        "at_seconds": 24,
+        "prompt": "Playtime is ending at home. What helps with a calm transition?",
+        "options": [
+          { "id": "choose-next", "text": "Say: One more minute, then I will clean up." },
+          { "id": "hide-toys", "text": "Hide the toys and keep playing" },
+          { "id": "throw-blocks", "text": "Throw the blocks across the room" }
+        ],
+        "correct_option_id": "choose-next"
+      }
+    ],
+    "related_scenario_ids": ["sch-join-group-01", "hom-ask-snack-01"]
+  }
+]

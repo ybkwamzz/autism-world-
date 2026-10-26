@@ -1,0 +1,6 @@
+{
+  "summary":  "Revised v2 implementation plan incorporating the Pattern Lab consumption layer (predict_next_beat, odd_one_out, sort_group, transfer_slot on held-out concepts, cue_transfer across paired scenarios), errorless-to-fade scaffolding ladder (L1-L3 choices, S3-S0 scaffolds), separate recall vs. pattern acquisition measurement, 24-concept seed graph with 6 held-out transfer items and varied exemplars, child vs. caregiver interactive views, per-child consent and append-only attempt records with offline queue sync, privacy-enhanced YouTube embeds, and Lumo caregiver-only AI boundary.",
+  "updatedAt":  "2026-10-26T07:54:29.693426770Z",
+  "requestFeedback":  true,
+  "userFacing":  true
+}
